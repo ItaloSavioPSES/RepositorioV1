@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.degrade {
+    background: linear-gradient(to right, white 30%, #25214e )
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.nav-int {
+    position: relative;
+
+    display: flex;
+    gap: 90px;
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.bnt1 {
+    position: relative;
+    bottom: 4px;
+
+    width: 98px;
+    height: 27px;
+    
+
+    border-radius: 15px;
+    border: 0 none;
+
+    background-color: #25214e;
+    color: white; 
+
+    cursor: pointer;
+}
+
+.bnt1:hover {
+    color: black;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto-p {
+    position: relative;
+    right: 300px;
+    top: 150px;
+    font-size: 20px;
+
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+}
+
+#ver-n {
+    color: #25214e;
+    font-size: 40px;
+}
+
+.astro{
+    position: relative;
+    left: 230px;
+    bottom: 140px;
+}
+
+.img-astro {
+    width: 370px;
+    height:450px;
+}
+
+.bnt2-saibamais {
+    width: 163px;
+    height: 35px;
+
+    border: 2px solid #25214e;
+
+    background-color: white;
+    color: #25214e;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.bnt2-saibamais:hover {
+    background-color: #25214e;
+    color: white;
+}
+
+.corpo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre1 {
+    padding-top: 250px;
+}
+
+.titulo-sobre {
+    font-family: 'Roboto', sans-serif;
+    line-height: 15px;
+    position: relative;
+    left: 140px;
+    color: #25214e;
+}
+
+.t-sobre {
+    text-align: justify;
+    line-height: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: #25214e;
+}
+
+.caixa-parag {
+    display: flex;
+    position: relative;
+    left: 130px;
+    width: 500px;
+    bottom: 700px;
+}
+
+.video1 {
+    position: relative;
+    right: 420px;
+    width: 470px;
+    height: 400px;
+    bottom: 400px;
+
+}
+
+.borda-video {
+    position: relative;
+    right: 450px;
+    bottom: 85px;
+
+    width: 470px;
+    height: 270px;
+    z-index: 1px;   
+    border: 2px outset #25214e;
+    
+}
+
+.tecnologias1 {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-tec {
+    position: relative;
+    text-align: center;
+    bottom: 380px;
+    font-size: 30px;
+}
+
+.imgtec {
+    position: relative;
+    bottom: 300px;
+}
+
+.imgmedida {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px;
+}
+
+
+li>img {
+    height: 80px;
+    width: 90px;
+}
